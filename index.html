@@ -12,7 +12,7 @@
     <meta name="title" content="Tutti Unitis">
     <meta name="description"
         content="Lista rappresentanti d'istituto Esperia: Nicola Preda, Marco Bellini, Valentino Dentella, Giuliano Lupi, Davide Signorelli.">
-        <link rel="icon" href="./dist/img/Logo_Completo.png" />
+    <link rel="icon" href="./dist/img/Logo_Completo.png" />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
@@ -20,8 +20,7 @@
     <meta property="og:title" content="Tutti Unitis">
     <meta property="og:description"
         content="Lista rappresentanti d'istituto Esperia: Nicola Preda, Marco Bellini, Valentino Dentella, Giuliano Lupi, Davide Signorelli.">
-    <meta property="og:image"
-        content="./dist/img/metadata_banner.png">
+    <meta property="og:image" content="./dist/img/metadata_banner.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
@@ -29,23 +28,22 @@
     <meta property="twitter:title" content="Tutti Unitis">
     <meta property="twitter:description"
         content="Lista rappresentanti d'istituto Esperia: Nicola Preda, Marco Bellini, Valentino Dentella, Giuliano Lupi, Davide Signorelli.">
-    <meta property="twitter:image"
-        content="./dist/img/metadata_banner.png">
+    <meta property="twitter:image" content="./dist/img/metadata_banner.png">
     <script async src="https://cdn.splitbee.io/sb.js"></script>
 
 </head>
 
-<body class="bg-white dark:bg-blue-900">
+<body class="bg-white dark:bg-gray-800">
 
-    <nav class="bg-white px-2 sm:px-4 py-2.5 fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:bg-blue-900">
+    <nav class="bg-white px-2 sm:px-4 py-2.5 fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-800 dark:bg-gray-900">
         <div class="container flex flex-wrap justify-between items-center mx-auto">
             <a href="#/" class="flex items-center">
                 <img src="./dist/img/Logo_Completo.png" class="mr-3 h-6 sm:h-12" alt="Tutti Unitis">
                 <span class="text-xl font-bold text-gray-800 dark:text-white">Tutti Unitis</span>
             </a>
             <div class="flex md:order-2">
-                <button type="button"
-                    class="text-white hidden sm:block bg-purple-600 hover:bg-purple-800 transition font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0">Seguici!</button>
+                <a href="https://instagram.com/noidellesperia"
+                    class="text-white hidden sm:block bg-purple-600 hover:bg-purple-800 transition font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0">Seguici!</a>
                 <button data-collapse-toggle="navbar-sticky" type="button"
                     class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
                     aria-controls="navbar-sticky" aria-expanded="false">
@@ -80,22 +78,22 @@
 
 
     <!--header and navbar with tailwindcss, dark-->
-    <header style="background-image: url('./dist/img/Thumbnail.png')"
-        class="bg-blue-200 h-large bg-[url('./dist/img/Thumbnail.png')]">
+    <header
+        class="h-large bg-[url('/dist/img/Thumbnail.png')] dark:bg-[url('/dist/img/Thumbnail_dark.png')]">
 
         <div class="container mx-auto px-6 py-3">
             <div class="text-center  md:mx-16 mx-2 mt-32 mb-10 font-poppins">
                 <h1
                     class="px-2 leading-normal font-figtree text-4xl md:text-5xl lg:text-6xl bg-purple-500 font-bold text-primary-blue inline-flex">
-                    Il modo migliore per fare </h1><br>
+                    Il modo migliore per fare una cosa</h1><br>
                 <h1
                     class="px-2 mt-2 leading-normal font-figtree text-4xl md:text-5xl lg:text-6xl bg-blue-500 font-bold text-primary-blue inline-flex">
-                    una cosa è farla :)</h1>
+                    è farla :)</h1>
 
-                <h2 class="mt-4 text-md">Marco Bellini, Valentino Dentella, Giuliano Lupi, Davide Signorelli, Nicola
+                <h2 class="mt-4 text-md dark:text-white">Marco Bellini, Valentino Dentella, Giuliano Lupi, Davide Signorelli, Nicola
                     Preda
                 </h2>
-                <h2 class="font-light text-sm">Tramite questo sito vogliamo ufficialmente presentarci a tutti
+                <h2 class="font-light text-sm dark:text-gray-300">Tramite questo sito vogliamo ufficialmente presentarci a tutti
                     voi studenti dell'Esperia, come lista
                     Tutti Unitis.
                 </h2>
@@ -121,118 +119,131 @@
 
 
 
-    <section class="proposte mt-16 md:mt-96 py-16 bg-orange-50 items-center" id="proposte">
-        <h1
-            class="text-4xl md:text-7xl font-semibold font-figtree text-primary-blue bg-orange-300 px-5 py-2 md:mx-32 mx-10 inline-flex md:inline-block text-center">
-            Proposte</h1>
+    <section class="proposte mt-96 md:mt-96 py-16 bg-orange-50 items-stretch" id="proposte">
+        <div class="flex justify-center items-center">
+            <h1
+                class=" text-center text-4xl md:text-7xl font-semibold font-figtree text-primary-blue bg-orange-300 px-5 py-2 md:mx-32 mx-10 inline-flex md:inline-block text-center">
+                Proposte</h1>
+        </div>
 
         <!--section with 3 columns and 3 rows-->
-        <div class="grid grid-rows-3 gap-16 mt-16 md:mx-32 mx-10">
+        <div class="grid grid-rows-3  mt-16 md:mx-32 mx-10">
 
 
-            <div class="grid lg:grid-cols-3 gap-10">
+            <div class="grid lg:grid-cols-3 gap-10 items-stretch">
                 <div>
-                    <div class="bg-orange-100 p-10 rounded-lg cursor-pointer hover:bg-orange-200 transition">
-                        <div class="flex items-center">
-                            <i class="fas fa-laptop text-orange-700"></i>
-                            <h1 class="text-xl font-semibold ml-5">DAD Per I Malati
-                            </h1>
+                    <div class="bg-orange-100 rounded-lg cursor-pointer hover:bg-orange-200 transition h-64">
+                        <div class="p-10">
+                            <div class="flex items-center">
+                                <i class="fas fa-laptop text-orange-700"></i>
+                                <h1 class="text-xl font-semibold ml-5">DAD Per I Malati
+                                </h1>
+                            </div>
+                            <p class="font-light mt-2">Possibilità di predisporre un meet da parte degli insegnanti ai
+                                poveri studenti costretti in casa per via della malattia. </p>
                         </div>
-                        <p class="font-light mt-2">Aliqua consequat commodo consequat in culpa mollit laboris
-                            consectetur cupidatat ad.</p>
                     </div>
                 </div>
 
                 <div>
-                    <div class="bg-orange-100 p-10 rounded-lg cursor-pointer hover:bg-orange-200 transition">
+                    <div class="bg-orange-100 p-10 rounded-lg cursor-pointer hover:bg-orange-200 transition h-64">
+
+
                         <div class="flex items-center">
                             <i class="far fa-comment text-orange-700"></i>
                             <h1 class="text-xl font-semibold ml-5">Incontri Con...
                             </h1>
                         </div>
-                        <p class="font-light mt-2">Aliqua consequat commodo consequat in culpa mollit laboris
-                            consectetur cupidatat ad.</p>
+                        <p class="font-light mt-2">Organizzare un mese a tema per ogni indirizzo della nostra scuola:
+                            nomi da invitare al Paleocapa per raccontare la sua esperienza nell'ambito</p>
                     </div>
                 </div>
                 <div>
-                    <div class="bg-orange-100 p-10 rounded-lg cursor-pointer hover:bg-orange-200 transition">
+                    <div class="bg-orange-100 p-10 rounded-lg cursor-pointer hover:bg-orange-200 transition h-64">
                         <div class="flex items-center">
                             <i class="	far fa-futbol text-orange-700"></i>
                             <h1 class="text-xl font-semibold ml-5">Campo Da Calcio
                             </h1>
                         </div>
-                        <p class="font-light mt-2">Aliqua consequat commodo consequat in culpa mollit laboris
-                            consectetur cupidatat ad.</p>
+                        <p class="font-light mt-2">Proporre in Consiglio di istituto la realizzazione di un nuovo campo
+                            da calcio per la scuola (direi che è anche ora :/)</p>
                     </div>
                 </div>
             </div>
-            <div class="grid lg:grid-cols-3 gap-10">
+            <div class="grid lg:grid-cols-3 gap-10 items-stretch">
                 <div>
-                    <div class="bg-orange-100 p-10 rounded-lg cursor-pointer hover:bg-orange-200 transition">
+                    <div class="bg-orange-100 p-10 rounded-lg cursor-pointer hover:bg-orange-200 transition h-64">
                         <div class="flex items-center">
                             <i class="fas fa-female text-orange-700"></i>
                             <h1 class="text-xl font-semibold ml-5">Tampon Box Nei Bagni
                             </h1>
                         </div>
-                        <p class="font-light mt-2">Aliqua consequat commodo consequat in culpa mollit laboris
-                            consectetur cupidatat ad.</p>
+                        <p class="font-light mt-2">(per le ragazze visto che ci sono)
+                        </p>
                     </div>
                 </div>
                 <div>
-                    <div class="bg-orange-100 p-10 rounded-lg cursor-pointer hover:bg-orange-200 transition">
+                    <div class="bg-orange-100 p-10 rounded-lg cursor-pointer hover:bg-orange-200 transition h-64">
                         <div class="flex items-center">
                             <i class="	fas fa-volume-up text-orange-700"></i>
                             <h1 class="text-xl font-semibold ml-5">Esperia Band
                             </h1>
                         </div>
-                        <p class="font-light mt-2">Aliqua consequat commodo consequat in culpa mollit laboris
-                            consectetur cupidatat ad.</p>
+                        <p class="font-light mt-2">Studenti che suonano strumenti o cantano si riuniscono per creare i
+                            futuri AC/DC e realizzare concerti durante le cogestioni e i vari eventi della scuola</p>
                     </div>
                 </div>
                 <div>
-                    <div class="bg-orange-100 p-10 rounded-lg cursor-pointer hover:bg-orange-200 transition">
-                        <div class="flex items-center">
-                            <i class="	fas fa-restroom text-orange-700"></i>
-                            <h1 class="text-xl font-semibold ml-5">Bagni Nuovi
-                            </h1>
-                        </div>
-                        <p class="font-light mt-2">Aliqua consequat commodo consequat in culpa mollit laboris
-                            consectetur cupidatat ad.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="grid lg:grid-cols-3 gap-10">
-                <div>
-                    <div class="bg-orange-100 p-10 rounded-lg cursor-pointer hover:bg-orange-200 transition">
-                        <div class="flex items-center">
-                            <i class="fas fa-bullhorn text-orange-700"></i>
-                            <h1 class="text-xl font-semibold ml-5">Assemblee Paritetiche
-                            </h1>
-                        </div>
-                        <p class="font-light mt-2">Aliqua consequat commodo consequat in culpa mollit laboris
-                            consectetur cupidatat ad.</p>
-                    </div>
-                </div>
-                <div>
-                    <div class="bg-orange-100 p-10 rounded-lg cursor-pointer hover:bg-orange-200 transition">
+
+                    <div class="bg-orange-100 p-10 rounded-lg cursor-pointer hover:bg-orange-200 transition h-64">
                         <div class="flex items-center">
                             <i class="fas fa-chalkboard-teacher text-orange-700"></i>
                             <h1 class="text-xl font-semibold ml-5">Aula Studio Autogestita
                             </h1>
                         </div>
-                        <p class="font-light mt-2">Aliqua consequat commodo consequat in culpa mollit laboris
-                            consectetur cupidatat ad.</p>
+                        <p class="font-light mt-2">Possibilità di prenotare la propria aula durante il pomeriggio per
+                            formare gruppi di studio direttamente in istituto</p>
+                    </div>
+                </div>
+            </div>
+            <div class="grid lg:grid-cols-3 gap-5">
+                <div>
+                    <div class="bg-orange-100 p-10 rounded-lg cursor-pointer hover:bg-orange-200 transition h-96">
+                        <div class="flex items-center">
+                            <i class="fas fa-bullhorn text-orange-700"></i>
+                            <h1 class="text-xl font-semibold ml-5">Assemblee Paritetiche
+                            </h1>
+                        </div>
+                        <p class="font-light mt-2">Istituzione di piccole assemblee di studenti per discutere di
+                            problemi e necessità all'interno della classe. A differenza dei consigli di classe,
+                            l'assemblea sarà organizzata dagli studenti, e sarà possibile istituirla una volta al mese.
+                        </p>
                     </div>
                 </div>
                 <div>
-                    <div class="bg-orange-100 p-10 rounded-lg cursor-pointer hover:bg-orange-200 transition">
+                    <div class="bg-orange-100 p-10 rounded-lg cursor-pointer hover:bg-orange-200 transition h-96">
+                        <div class="flex items-center">
+                            <i class="	fas fa-restroom text-orange-700"></i>
+                            <h1 class="text-xl font-semibold ml-5">Bagni Nuovi
+                            </h1>
+                        </div>
+                        <p class="font-light mt-2">I muri dei bagni, nonostante vengano continuamente imbiancati con il
+                            passare degli anni, rimangono sempre un quadro dove ognuno si esprime come meglio crede.
+                            Abbiamo pensato: perchè non supportare questo aspetto realizzando intere pareti dei bagni
+                            scolastici dedicate a disegni artistici degli studenti? </p>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="bg-orange-100 p-10 rounded-lg cursor-pointer hover:bg-orange-200 transition h-96">
                         <div class="flex items-center">
                             <i class="fas fa-user-graduate text-orange-700"></i>
                             <h1 class="text-xl font-semibold ml-5">Orientamento Universitario
                             </h1>
                         </div>
-                        <p class="font-light mt-2">Aliqua consequat commodo consequat in culpa mollit laboris
-                            consectetur cupidatat ad.</p>
+                        <p class="font-light mt-2">Chiamare in istituto neolaureati, studenti universitari ed ex alunni
+                            per portare la loro testimonianza in ambito universitario, con l'obiettivo di guidare i
+                            ragazzi di quinta nel loro futuro</p>
                     </div>
                 </div>
             </div>
@@ -242,16 +253,19 @@
 
     <section id="contatti" class="my-32 py-32 ">
         <div class="md:mx-32 mx-10">
-            <h1
-                class="text-4xl md:text-7xl font-semibold font-figtree text-primary-blue inline-flex bg-red-300 px-5 py-2 ">
-                Contattaci</h1>
+            <div class="flex justify-center items-center">
 
+                <h1
+                    class="text-center text-4xl md:text-7xl font-semibold font-figtree text-primary-blue inline-flex bg-red-300 px-5 py-2 ">
+                    Contattaci</h1>
+            </div>
             <div class="grid md:grid-cols-2 gap-16 mt-12">
                 <div>
                     <h1 class="text-xl font-figtree font-semibold letter-spacing-1">Mail</h1>
-                    <a class="my-3 bg-red-100 rounded-lg flex items-center cursor pointer px-3 py-2 inline-block"
+                    <a class="hover:bg-red-200 transition my-3 bg-red-100 rounded-lg flex items-center cursor pointer px-3 py-2 inline-block"
                         href="mailto:comitato.studentesco@itispaleocapa.it">
-                        <i class="fas fa-envelope text-primary-blue"></i>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/d/df/Aiga_mail.svg" alt="Mail"
+                            class="h-8 w-8">
                         <p class="mx-5 text-sm md:text-normal">Comitato Studentesco</p>
                     </a>
 
@@ -261,11 +275,13 @@
                 </div>
                 <div>
                     <h1 class="text-xl font-figtree font-semibold letter-spacing-1">Social network</h1>
-                    <a class="my-3 bg-red-100 rounded-lg flex items-center cursor pointer px-3 py-2 inline-block"
+                    <a class="my-3 bg-red-100 rounded-lg flex items-center cursor pointer px-3 py-2 inline-block hover:bg-red-200 transition"
                         href="https://instagram.com/noidellesperia">
-                        <i class="fa-brands fa-instagram text-sm"></i>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Instagram_simple_icon.svg/1920px-Instagram_simple_icon.svg.png"
+                            alt="Instagram" class="h-8 w-8">
                         <p class="mx-5">noidellesperia</p>
                     </a>
+
 
                 </div>
 
