@@ -37,76 +37,79 @@
 
 <body class="bg-white dark:bg-gray-800">
 
-    <nav
-        class="bg-white px-2 sm:px-4 py-2.5 fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-800 dark:bg-gray-900">
-        <div class="container flex flex-wrap justify-between items-center mx-auto">
-            <a href="#/" class="flex items-center">
-                <img src="./dist/img/Logo_Completo.png" class="mr-3 h-6 sm:h-12" alt="Tutti Unitis">
-                <span class="text-xl font-bold text-gray-800 dark:text-white">Tutti Unitis</span>
-            </a>
-            <div class="flex md:order-2">
-                <a href="https://instagram.com/noidellesperia"
-                    class="text-white hidden sm:block bg-purple-600 hover:bg-purple-800 transition font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0">Seguici!</a>
-                <button data-collapse-toggle="navbar-sticky" type="button"
-                    class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
-                    aria-controls="navbar-sticky" aria-expanded="false">
-                    <span class="sr-only">Open main menu</span>
-                    <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd"
-                            d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
-                            clip-rule="evenodd"></path>
-                    </svg>
-                </button>
-            </div>
-            <div class="hidden justify-between items-center w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
-                <ul
-                    class="flex flex-col p-4 mt-4 bg-gray-50 rounded-lg border border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
-                    <li>
-                        <a href="#"
-                            class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Home</a>
-                    </li>
-                    <li>
-                        <a href="#proposte"
-                            class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Proposte</a>
-                    </li>
-                    <li>
-                        <a href="#contatti"
-                            class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Contatti</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
 
 
     <!--header and navbar with tailwindcss, dark-->
-    <header class="h-large bg-[url('/dist/img/Thumbnail.png')] dark:bg-[url('/dist/img/Thumbnail_dark.png')]">
+    <header style="background-image: url('./dist/img/Thumbnail_1.svg');background-size: cover; "
+        class="h-large bg-gray-800">
+        <nav class="bg-black bg-opacity-20 backdrop-blur-2xl	 px-2 sm:px-4 py-2.5 fixed w-full z-20 top-0 left-0 ">
+            <div class="container flex flex-wrap justify-between items-center mx-auto">
+                <a href="#/" class="flex items-center opacity-100">
+                    <img src="./dist/img/Logo_Completo.png" class="mr-3 h-6 sm:h-12" alt="Tutti Unitis">
+                    <span class="text-xl font-bold text-gray-100">Tutti Unitis</span>
+                </a>
+                <div class="flex md:order-2">
+
+                <a href="https://instagram.com/noidellesperia"
+                    class="md:order-3 text-white hidden sm:block bg-purple-600 hover:bg-purple-800 transition font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0">Seguici!</a>
+
+                    <button data-collapse-toggle="navbar-sticky" type="button"
+                        class="inline-flex items-center p-2 text-sm text-gray-200 hover:text-gray-100 rounded-lg md:hidden "
+                        aria-controls="navbar-sticky" aria-expanded="false">
+                        <span class="sr-only">Open main menu</span>
+                        <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                                clip-rule="evenodd"></path>
+                        </svg>
+                    </button>
+                </div>
+
+                <div class="hidden justify-between items-center w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+                    <ul
+                        class="flex flex-col p-4 mt-4 rounded-lg  md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-transparent">
+                        <li>
+                            <a href="#"
+                                class="block py-2 pr-4 pl-3 text-gray-700 text-gray-200   md:hover:text-blue-300 md:p-0 md:dark:hover:text-white dark:text-gray-400 ">Home</a>
+                        </li>
+                        <li>
+                            <a href="#proposte"
+                                class="block py-2 pr-4 pl-3 text-gray-700 text-gray-200   md:hover:text-blue-300 md:p-0">Proposte</a>
+                        </li>
+                        <li>
+                            <a href="#contatti"
+                                class="block py-2 pr-4 pl-3 text-gray-700 text-gray-200  md:hover:text-blue-300 md:p-0">Contatti</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
 
         <div class="container mx-auto px-6 py-3">
             <div class="text-center  md:mx-16 mx-2 mt-32 mb-10 font-poppins">
                 <h1
-                    class="px-2 leading-normal font-figtree text-4xl md:text-5xl lg:text-6xl bg-purple-500 font-bold text-primary-blue inline-flex">
+                    class="px-2 leading-normal font-figtree text-3xl md:text-5xl lg:text-6xl md:font-bold text-white inline-flex">
                     Il modo migliore per fare una cosa</h1><br>
                 <h1
-                    class="px-2 mt-2 leading-normal font-figtree text-4xl md:text-5xl lg:text-6xl bg-blue-500 font-bold text-primary-blue inline-flex">
+                    class="px-2 mt-2 text-white leading-normal font-figtree text-4xl md:text-5xl lg:text-6xl font-bold inline-flex">
                     è farla :)</h1>
 
-                <h2 class="mt-4 text-md dark:text-white">Marco Bellini, Valentino Dentella, Giuliano Lupi, Davide
-                    Signorelli, Nicola
-                    Preda
+                <h2 class="mt-4 text-md text-gray-200">
                 </h2>
-                <h2 class="font-light text-sm dark:text-gray-300">Tramite questo sito vogliamo ufficialmente presentarci
+                <h2 class="font-light text-sm text-gray-300">Tramite questo sito vogliamo ufficialmente presentarci
                     a tutti
                     voi studenti dell'Esperia, come lista
-                    Tutti Unitis.
+                    Tutti Unitis. <br>Membri: <b>Marco Bellini, Valentino Dentella, Giuliano Lupi, Davide
+                    Signorelli, Nicola
+                    Preda</b>
                 </h2>
                 <div class="mt-5 sm:mt-10">
                     <a type="button" href="#proposte"
-                        class="px-8 text-white bg-blue-700 hover:bg-blue-800 transition text-sm tracking-wide font-normal rounded-lg px-5 py-2.5 mr-2 mb-2">Proposte<i
+                        class="px-8 text-white bg-blue-500 hover:bg-blue-800 transition text-sm tracking-wide font-normal rounded-lg px-5 py-2.5 mr-2 mb-2">Proposte<i
                             class="fa fa-arrow-right ml-2"></i></a>
                     <a type="button" href="#contatti"
-                        class="px-8 text-blue-700 bg-transparent border border-blue-700 transition tracking-wide text-sm font-bold letter-spacing-1 hover:bg-gray-100 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2">Contatti<i
+                        class="px-8 text-blue-200 hover:text-blue-800 bg-transparent border border-blue-200 transition tracking-wide text-sm font-bold letter-spacing-1 hover:bg-gray-100 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2">Contatti<i
                             class="fa fa-arrow-right ml-2"></i></a>
 
                 </div>
@@ -216,7 +219,10 @@
                             <h1 class="text-center text-xl font-semibold">Aula Studio Autogestita
                             </h1>
                         </div>
-                        <p class="font-light mt-2 text-center ">Il tuo pullman parte dopo due ore dalla fine della scuola? Nessun Problema! Puoi fermarti in uno spazio libero in istituto dedicato allo studio o allo svago, senza dover aspettare fuori l'arrivo del tuo mezzo nei freddi pomeriggi di dicembre ❄️ </p>
+                        <p class="font-light mt-2 text-center ">Il tuo pullman parte dopo due ore dalla fine della
+                            scuola? Nessun Problema! Puoi fermarti in uno spazio libero in istituto dedicato allo studio
+                            o allo svago, senza dover aspettare fuori l'arrivo del tuo mezzo nei freddi pomeriggi di
+                            dicembre ❄️ </p>
                     </div>
                 </div>
             </div>
@@ -288,12 +294,13 @@
                     </style>
                     <div>
                         <div class=" flex-wrap items-center">
-                            
+
                             <div class="grow-0 shrink-0 basis-auto w-full lg:w-6/12 xl:w-8/12 m-auto">
                                 <div class="flex flex-wrap pt-12 lg:pt-0">
                                     <div
                                         class="mb-12 grow-0 shrink-0 basis-auto w-full md:w-6/12 lg:w-full xl:w-6/12 px-3 md:px-6 xl:px-12">
-                                        <a class="flex items-start hover:bg-red-100 p-2 rounded-lg transition" href="https://instagram.com/noidellesperia">
+                                        <a class="flex items-start hover:bg-red-100 p-2 rounded-lg transition"
+                                            href="https://instagram.com/noidellesperia">
                                             <div class="shrink-0">
                                                 <div
                                                     class="p-4 bg-red-600 rounded-md shadow-md w-14 h-14 flex items-center justify-center">
@@ -303,13 +310,15 @@
                                             <div class="grow ml-6">
                                                 <p class="font-bold mb-1 text-xl">Instagram</p>
                                                 <p class="text-gray-500 text-md font-normal">@noidellesperia</p>
-                                                <p class="text-gray-500 text-sm font-light">Social ufficiale per comunicazioni e presentazioni dei progetti</p>
+                                                <p class="text-gray-500 text-sm font-light">Social ufficiale per
+                                                    comunicazioni e presentazioni dei progetti</p>
                                             </div>
                                         </a>
                                     </div>
                                     <div
                                         class="mb-12 grow-0 shrink-0 basis-auto w-full md:w-6/12 lg:w-full xl:w-6/12 px-3 md:px-6 xl:px-12">
-                                        <a class="flex items-start hover:bg-red-100 p-2 rounded-lg transition" href="mailto:comitato.studentesco@itispaleocapa.it">
+                                        <a class="flex items-start hover:bg-red-100 p-2 rounded-lg transition"
+                                            href="mailto:comitato.studentesco@itispaleocapa.it">
                                             <div class="shrink-0">
                                                 <div
                                                     class="p-4 bg-red-600 rounded-md shadow-md w-14 h-14 flex items-center justify-center">
@@ -319,13 +328,15 @@
                                             <div class="grow ml-6">
                                                 <p class="font-bold mb-1 text-xl">Mail</p>
                                                 <p class="text-gray-500 text-md font-normal">comitato.studentesco</p>
-                                                <p class="text-gray-500 text-sm font-light">Mail del comitato per qualsiasi idea, proposta o necessità</p>
+                                                <p class="text-gray-500 text-sm font-light">Mail del comitato per
+                                                    qualsiasi idea, proposta o necessità</p>
                                             </div>
                                         </a>
                                     </div>
                                     <div
                                         class="mb-12 grow-0 shrink-0 basis-auto w-full md:w-6/12 lg:w-full xl:w-6/12 px-3 md:px-6 xl:px-12">
-                                        <div class="flex items-start hover:bg-red-100 p-2 rounded-lg transition cursor-pointer" >
+                                        <div
+                                            class="flex items-start hover:bg-red-100 p-2 rounded-lg transition cursor-pointer">
                                             <div class="shrink-0">
                                                 <div
                                                     class="p-4 bg-red-600 rounded-md shadow-md w-14 h-14 flex items-center justify-center">
@@ -335,25 +346,28 @@
                                             <div class="grow ml-6">
                                                 <p class="font-bold mb-1 text-xl">Telegram</p>
                                                 <p class="text-gray-500 text-md font-normal">Gruppo rappresentanti</p>
-                                                <p class="text-gray-500 text-sm font-light">Tramite la chat condivisa con i rappresentanti di classe </p>
+                                                <p class="text-gray-500 text-sm font-light">Tramite la chat condivisa
+                                                    con i rappresentanti di classe </p>
                                             </div>
                                         </div>
                                     </div>
                                     <div
-                                    class="mb-12 grow-0 shrink-0 basis-auto w-full md:w-6/12 lg:w-full xl:w-6/12 px-3 md:px-6 xl:px-12">
-                                    <div class="flex items-start hover:bg-red-100 p-2 rounded-lg transition cursor-pointer" >
-                                        <div class="shrink-0">
-                                            <div
-                                                class="p-4 bg-red-600 rounded-md shadow-md w-14 h-14 flex items-center justify-center">
-                                                <i class="fas fa-user text-white text-2xl"></i>
+                                        class="mb-12 grow-0 shrink-0 basis-auto w-full md:w-6/12 lg:w-full xl:w-6/12 px-3 md:px-6 xl:px-12">
+                                        <div
+                                            class="flex items-start hover:bg-red-100 p-2 rounded-lg transition cursor-pointer">
+                                            <div class="shrink-0">
+                                                <div
+                                                    class="p-4 bg-red-600 rounded-md shadow-md w-14 h-14 flex items-center justify-center">
+                                                    <i class="fas fa-user text-white text-2xl"></i>
+                                                </div>
+                                            </div>
+                                            <div class="grow ml-6">
+                                                <p class="font-bold mb-1 text-xl">Di persona</p>
+                                                <p class="text-gray-500 text-sm font-light">Siamo anche delle persone
+                                                    fisiche :) </p>
                                             </div>
                                         </div>
-                                        <div class="grow ml-6">
-                                            <p class="font-bold mb-1 text-xl">Di persona</p>
-                                            <p class="text-gray-500 text-sm font-light">Siamo anche delle persone fisiche :) </p>
-                                        </div>
                                     </div>
-                                </div>
                                 </div>
                             </div>
                         </div>
